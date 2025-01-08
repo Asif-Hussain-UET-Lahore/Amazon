@@ -3,11 +3,133 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="main.css">
+    <title>Simple Navigation Bar</title>
+    <link rel="stylesheet" href="file2.css">
+    <link rel="stylesheet" href="file3.css">
+    <style>
+        /* Footer Styling */
+        .footer {
+            background-color: #232F3E;
+            color: white;
+            padding: 20px;
+            font-size: 14px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            text-align: left;
+        }
+        .footer-column {
+            width: 23%;
+            margin-bottom: 10px;
+        }
+        .footer a {
+            color: #ffffff;
+            text-decoration: none;
+        }
+        .footer a:hover {
+            text-decoration: underline;
+        }
+        .footer p {
+            margin: 0 0 10px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome to Amazon</h1>
-    <h2>Products</h2>
+<div class="navbar">
+    <a href="#home" class="am">amazon</a>
+    <a href="#services" class="del">Delivery to</a>
+    <input type="text" placeholder="Search amazon" class="inp">
+    <button id="s" type="submit">Search</button>
+</div>
+<div id="n1">
+    <a href="#home">All</a>
+    <a href="#home">Today's Deal</a>
+    <a href="#home">Customer Service</a>
+    <a href="#home">Registry</a>    
+</div>
+<div class="cl">
+    <div class="container">
+        <img class="img" src="labtop.jpeg" alt="Laptop">
+        <h2>Laptop</h2>
+        <p>Price: $999</p>
+    </div>
+    <div class="container">
+        <img class="img" src="Lab.jpeg" alt="Lab Equipment">
+        <h2>Lab Equipment</h2>
+        <p>Price: $299</p>
+    </div>
+    <div class="container">
+        <img src="mobile.jpeg" class="img" alt="Mobile">
+        <h2>Mobile</h2>
+        <p>Price: $599</p>
+    </div>
+    <div class="container">
+        <img src="labtop.jpeg" class="img" alt="Laptop">
+        <h2>Laptop</h2>
+        <p>Price: $999</p>
+    </div>
+    <div class="container">
+        <img src="Lab.jpeg" class="img" alt="Lab Equipment">
+        <h2>Lab Equipment</h2>
+        <p>Price: $299</p>
+    </div>
+    <div class="container">
+        <img src="ipad.jpeg" alt="iPad" class="img">
+        <h2>iPad</h2>
+        <p>Price: $799</p>
+    </div>
+    <div class="container">
+        <img src="bat.jpeg" alt="Cricket Bat" class="img">
+        <h2>Cricket Bat</h2>
+        <p>Price: $99</p>
+    </div>
+    <div class="container">
+        <img src="eye.jpeg" alt="Eyeglasses" class="img">
+        <h2>Eyeglasses</h2>
+        <p>Price: $49</p>
+    </div>
+    <div class="container">
+        <img src="eye.jpeg" alt="Eyeglasses" class="img">
+        <h2>Eyeglasses</h2>
+        <p>Price: $49</p>
+    </div>
+    <div class="container">
+        <img src="eye.jpeg" alt="Eyeglasses" class="img">
+        <h2>Eyeglasses</h2>
+        <p>Price: $49</p>
+    </div>
+    <div class="container">
+        <img src="ipad.jpeg" alt="iPad" class="img">
+        <h2>iPad</h2>
+        <p>Price: $799</p>
+    </div>
+    <div class="container">
+        <img src="bat.jpeg" alt="Cricket Bat" class="img">
+        <h2>Cricket Bat</h2>
+        <p>Price: $99</p>
+    </div>
+</div>
+
+<!-- Footer -->
+<div class="footer">
+    <div class="footer-column">
+        <p><strong>Back to Top</strong></p>
+        <p>Get to Know Us</p>
+        <a href="#">Careers</a> | <a href="#">Blog</a> | <a href="#">About Amazon</a>
+    </div>
+    <div class="footer-column">
+        <p><strong>Make Money with Us</strong></p>
+        <a href="#">Sell products on Amazon</a> | <a href="#">Become an Affiliate</a>
+    </div>
+    <div class="footer-column">
+        <p><strong>Amazon Payment Products</strong></p>
+        <a href="#">Amazon Business Card</a> | <a href="#">Reload Your Balance</a>
+    </div>
+    <div class="footer-column">
+        <p><strong>Let Us Help You</strong></p>
+        <a href="#">Your Account</a> | <a href="#">Returns & Replacements</a> | <a href="#">Help</a>
+    </div>
+</div>
+
 </body>
 </html>
